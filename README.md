@@ -25,7 +25,7 @@ python generate_figures.py
 
 Datasets are stored as multi-resolution TFRecords, similar to the [StyleGAN](https://github.com/NVlabs/stylegan). Each dataset consists of multiple `*.tfrecords` files stored under a common directory.
 
-Besides, STGAN-WO utilizes the structure-texture independent architecture to conduct the image synthesis which hierarchically generates the structure and texture parts independently. Face images of coarse resolutions are the structure parts, which is obtained by I - I^s. You can obtain the structure and texture components using corresponding algprithms, or download from  [Texture-components](https://github.com/NVlabs/ffhq-dataset).
+Besides, STGAN-WO utilizes the structure-texture independent architecture to conduct the image synthesis which hierarchically generates the structure and texture parts independently. Face images of coarse resolutions are the structure parts, which is obtained by I - I^s. You can obtain the structure and texture components using corresponding algprithms, or download from  [Texture-components](https://drive.google.com/file/d/1PRQ936iSmymwAmL8hWKbtEkr-BzsgKUE/view?usp=sharing).
 
 The dataset file should be like this:
 
