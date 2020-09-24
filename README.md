@@ -21,6 +21,21 @@ python generate_figures.py
 
 ![Fig1a](./images/fig1a.png)
 
+![Fig1b](./images/fig1b.png)
+
+![Fig1c](./images/fig1c.png)
+
+![Fig1d](./images/fig1d.png)
+
+![Fig1e](./images/fig1e.png)
+
+![Fig1f](./images/fig1f.png)
+
+![Fig1g](./images/fig1g.png)
+
+![Fig1h](./images/fig1h.png)
+
+![Fig1i](./images/fig1i.png)
 ##Preparing datasets
 
 Datasets are stored as multi-resolution TFRecords, similar to the [StyleGAN](https://github.com/NVlabs/stylegan). Each dataset consists of multiple `*.tfrecords` files stored under a common directory.
