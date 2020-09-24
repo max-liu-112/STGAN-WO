@@ -19,6 +19,8 @@ Pre-trained networks are stored as `*.pkl` files on the [Google Drive folder](ht
 
 python generate_figures.py
 
+![Fig1a](./images/fig1a.png)
+
 ##Preparing datasets
 
 Datasets are stored as multi-resolution TFRecords, similar to the [StyleGAN](https://github.com/NVlabs/stylegan). Each dataset consists of multiple `*.tfrecords` files stored under a common directory.
@@ -26,12 +28,19 @@ Datasets are stored as multi-resolution TFRecords, similar to the [StyleGAN](htt
 Besides, STGAN-WO utilizes the structure-texture independent architecture to conduct the image synthesis which hierarchically generates the structure and texture parts independently. Face images of coarse resolutions are the structure parts, which is obtained by I - I^s. You can obtain the structure and texture components using corresponding algprithms, or download from  [Texture-components](https://github.com/NVlabs/ffhq-dataset).
 
 The dataset file should be like this:
-datasets folder
+
+datasets folder:
+
 | &boxvr;&nbsp; -r3.tfrecords
+
 | &boxvr;&nbsp; -r4.tfrecords
+
 | &boxvr;&nbsp; -r5.tfrecords
+
 | &boxvr;&nbsp; -r6.tfrecords
+
 | &boxvr;&nbsp; -r9.tfrecords
+
 r3.tfrecords-r6.tfrecords are the texture components of corresponding resolutions, r9.tfrecords is the RGB images.
 
 ## Train networks
