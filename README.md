@@ -19,7 +19,11 @@ Pre-trained networks are stored as `*.pkl` files on the [Google Drive folder](ht
 
 python generate_figures.py
 
+change z_2 would affect texture component related attributes like:
+
 ![Fig1a](./images/fig1a.png)
+
+moving w1 along its orthogonal directions can edit attributes individually:
 
 ![Fig1b](./images/fig1b.png)
 
