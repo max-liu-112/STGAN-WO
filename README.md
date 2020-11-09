@@ -25,7 +25,7 @@ Pre-trained networks are stored as `*.pkl` files on the [Google Drive folder](ht
 
 python generate_figures.py
 
-change z_2 would affect texture component related attributes like:
+change z_2 would affect structure component related attributes like:
 
 ![Fig1a](./images/fig1a.png)
 
@@ -52,7 +52,7 @@ moving w1 along its orthogonal directions can edit attributes individually:
 
 Datasets are stored as multi-resolution TFRecords, similar to the [StyleGAN](https://github.com/NVlabs/stylegan). Each dataset consists of multiple `*.tfrecords` files stored under a common directory.
 
-Besides, STGAN-WO utilizes the structure-texture independent architecture to conduct the image synthesis which hierarchically generates the structure and texture parts independently. Face images of coarse resolutions are the structure parts, which is obtained by I - I^s. You can obtain the structure and texture components using corresponding algprithms, or download from  [Texture-components](https://drive.google.com/file/d/1PRQ936iSmymwAmL8hWKbtEkr-BzsgKUE/view?usp=sharing).
+Besides, STGAN-WO utilizes the structure-texture independent architecture to conduct the image synthesis which hierarchically generates the structure and texture parts independently. Face images of coarse resolutions are the structure parts, which is obtained by I - I^t. You can obtain the structure and texture components using corresponding algprithms, or download from  [Structure-components](https://drive.google.com/file/d/1PRQ936iSmymwAmL8hWKbtEkr-BzsgKUE/view?usp=sharing).
 
 The dataset file should be like this:
 
@@ -68,7 +68,7 @@ datasets folder:
 
 | &boxvr;&nbsp; -r9.tfrecords
 
-r3.tfrecords-r6.tfrecords are the texture components of corresponding resolutions, r9.tfrecords is the RGB images.
+r3.tfrecords-r6.tfrecords are the structure components of corresponding resolutions, r9.tfrecords is the RGB images.
 
 ## Train networks
 
