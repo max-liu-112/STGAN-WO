@@ -20,7 +20,7 @@ This project inherits from [StyleGAN](https://github.com/NVlabs/stylegan2)
 
 ##Using pre-trained networks
 
-Pre-trained networks are stored as `*.pkl` files on the [Google Drive folder](https://drive.google.com/file/d/1PRQ936iSmymwAmL8hWKbtEkr-BzsgKUE/view?usp=sharing).
+Pre-trained networks are stored as `*.pkl` files on the [Google Drive folder](https://drive.google.com/file/d/1HXwkTNBjQOqgLtuCREpyG2o3ECqY_nsN/view?usp=sharing).
 # generate face images 
 
 python generate_figures.py
@@ -52,7 +52,7 @@ moving w1 along its orthogonal directions can edit attributes individually:
 
 Datasets are stored as multi-resolution TFRecords, similar to the [StyleGAN](https://github.com/NVlabs/stylegan). Each dataset consists of multiple `*.tfrecords` files stored under a common directory.
 
-Besides, STGAN-WO utilizes the structure-texture independent architecture to conduct the image synthesis which hierarchically generates the structure and texture parts independently. Face images of coarse resolutions are the structure parts, which is obtained by I - I^t. You can obtain the structure and texture components using corresponding algprithms, or download from  [Structure-components](https://drive.google.com/file/d/1PRQ936iSmymwAmL8hWKbtEkr-BzsgKUE/view?usp=sharing).
+Besides, STGAN-WO utilizes the structure-texture independent architecture to conduct the image synthesis which hierarchically generates the structure and texture parts independently. Face images of coarse resolutions are the structure parts, which is obtained by I - I^t. You can obtain the structure and texture components using corresponding algprithms, or download from  [Structure-components](https://drive.google.com/file/d/1XTh2m0lI3p3-6zsQyii7voTEzT_ksPXk/view?usp=sharing).
 
 The dataset file should be like this:
 
