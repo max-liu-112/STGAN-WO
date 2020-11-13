@@ -20,7 +20,7 @@ This project inherits from [StyleGAN](https://github.com/NVlabs/stylegan2)
 
 ##Using pre-trained networks
 
-Pre-trained networks are stored as `*.pkl` files on the [Google Drive folder](https://drive.google.com/file/d/1V47gZoG2ZEwTbIa_46Fv-tw3qtLLlAnA/view?usp=sharing).
+Pre-trained networks are stored as `*.pkl` files on the [Google Drive folder](https://drive.google.com/file/d/1PRQ936iSmymwAmL8hWKbtEkr-BzsgKUE/view?usp=sharing).
 # generate face images 
 
 python generate_figures.py
