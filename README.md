@@ -1,9 +1,9 @@
 ## STGAN-WO
 
-**Disentangling Latent Space for Unsupervised Semantic Face Editing**<br>
+**Towards Disentangling Latent Space for Unsupervised Semantic Face Editing**<br>
 Kanglin Liu and Gaofeng Cao and Fei Zhou and Bozhi Liu and Jiang Duan and Guoping Qiu<br>
 
-Paper: https://arxiv.org/abs/2011.02638<br>
+Paper:https://arxiv.org/abs/2011.02638<br>
 
 Implementation of STGAN-WO
 We have introduced the weightde decomposition technique as a replacement of weight demodulation, and constrain the weight matrix using orthogonal regularization, then proposed the structure-texture independent architecture to conduct the image synthesis, which hierarchically generates the structure and texture parts independently for the purpose of better attribute disentanglement
