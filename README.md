@@ -18,9 +18,7 @@ This project inherits from [StyleGAN](https://github.com/NVlabs/stylegan2)
 * One or more high-end NVIDIA GPUs, NVIDIA drivers, CUDA 10.0 toolkit and cuDNN 7.5. To reproduce the results reported in the paper, you need an NVIDIA GPU with at least 16 GB of DRAM.
 * Docker users: use the [provided Dockerfile](./Dockerfile) to build an image with the required library dependencies.
 
-##Using pre-trained networks
 
-Pre-trained networks are stored as `*.pkl` files on the [Google Drive folder](https://drive.google.com/file/d/1HXwkTNBjQOqgLtuCREpyG2o3ECqY_nsN/view?usp=sharing).
 # generate face images 
 
 python generate_figures.py
